@@ -105,3 +105,15 @@ def home():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
+
+
+### 📸 Screenshots
+![GUI](screenshot-safe.png)
+![Logs](screenshot-logs.png)
+![Error Handling](screenshot-error.png)
+
+### 🔐 Ethical Note
+Only tested on authorized test site testphp.vulnweb.com and localhost.
+
+**By Sukanya - ElevateLabs**
