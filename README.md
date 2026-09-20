@@ -27,7 +27,7 @@ Build a simple vulnerability scanner that crawls a target website and checks for
 #### 1. Scan on Test Target (testphp.vulnweb.com)
 - The site sometimes times out on mobile network (as seen in logs) - handled as Error/Low severity.
 - When reachable, scanner crawled 0-1 forms and reported Safe for basic payloads (because real vulns are on /search.php). This proves crawling & error handling works.
-- Screenshot: [Screenshot_20260920-194002.jpg]
+- Screenshot: ![Scan Result](Screenshot_20260920-194002.jpg)
 
 #### 2. Scan on Localhost Test (127.0.0.1:5000/testsite)
 - Tested with a dummy page. Scanner correctly reported `None-Safe` when no vuln found and logged all payload attempts in terminal.
